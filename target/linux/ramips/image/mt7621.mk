@@ -1017,6 +1017,15 @@ define Device/totolink_a7000r
 endef
 TARGET_DEVICES += totolink_a7000r
 
+define Device/tplink_tl-wdr8620-v3
+  IMAGE_SIZE := 7936k
+  DEVICE_VENDOR := TP-Link
+  DEVICE_MODEL := TL-WDR8620
+  DEVICE_VARIANT := v3
+  DEVICE_PACKAGES := kmod-mt7615e kmod-mt7615-firmware kmod-usb3 wpad-basic
+endef
+TARGET_DEVICES += tplink_tl-wdr8620-v3
+
 define Device/tplink_re350-v1
   $(Device/dsa-migration)
   $(Device/tplink-safeloader)
