@@ -1018,7 +1018,7 @@ endef
 TARGET_DEVICES += totolink_a7000r
 
 define Device/tplink_tl-wdr8620-v3
-  IMAGE_SIZE := 7936k
+  IMAGE_SIZE := 16128k
   DEVICE_VENDOR := TP-Link
   DEVICE_MODEL := TL-WDR8620
   DEVICE_VARIANT := v3
